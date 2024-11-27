@@ -25,7 +25,7 @@ ingredients_list = st.multiselect(
     , max_selections=5
     )
 
-#name_on_order = st.text_input("Name on Smoothie:")
+name_on_order = st.text_input("Name on Smoothie:")
 #st.write("The name on your Smoothie will be:", name_on_order)
 
 if ingredients_list:
